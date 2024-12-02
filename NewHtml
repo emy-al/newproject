@@ -8,7 +8,8 @@
 </head>
 <body>
     <main>
-        <divclass="passo ativo" id="passo-0">
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt="cenario-passo0">
             <p>Um dia desses, dentro de um livro da biblioteca do colégio,
                 eu descobri uma carta antiga sobre uma cidade perdida,
                 escondida por riquezas e belezas naturais.
@@ -22,6 +23,9 @@
             <p>Você chegou à Paranaguá, descendo a Serra do Mar, para encontrar a primeira pista.</p>
             <button class="btn-proximo"data-proximo="3">Procurar a pista no centro histórico</button>
             <button class="btn-proximo"data-proximo="4">Desistir e ir para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Em Paranaguá, você visita a parte histórica da cida</p>
         </div>
     </main>                    
 </body>
