@@ -1,32 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    <main>
-        <div class="passo ativo" id="passo-0">
-            <img src="cenario-passo0.png" alt="cenario-passo0">
-            <p>Um dia desses, dentro de um livro da biblioteca do colégio,
-                eu descobri uma carta antiga sobre uma cidade perdida,
-                escondida por riquezas e belezas naturais.
-                Nessa carta, a autora deixa algumas pistas para
-                encontrar essa cidade e eu decidi segui-las
-            </p>
-            <button class="btn-proximo" data-proximo="1">Paranaguá</button>
-            <button class=""btn-proximo" data-proximo="2">Foz do Iguaçú</button>
-        </div>
-        <div class="passo" id="passo-1">
-            <p>Você chegou à Paranaguá, descendo a Serra do Mar, para encontrar a primeira pista.</p>
-            <button class="btn-proximo"data-proximo="3">Procurar a pista no centro histórico</button>
-            <button class="btn-proximo"data-proximo="4">Desistir e ir para casa</button>
-        </div>
-        <div class="passo" id="passo-2">
-            <p>Em Paranaguá, você visita a parte histórica da cida</p>
-        </div>
-    </main>                    
-</body>
-</html>
+body{
+    background-color: #00008B;
+    color: #B8860B;
+    font-family:"Bai Jamjuree", sans serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button{
+    background-color: #1E90FF;
+    color: #808080;
+    font-family: "Bai Jamjuree", sans serif;
+} 
